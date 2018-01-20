@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Blackjack Chance</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="table">
+			<h3>Dealer's Hand</h3>
+			<div id="dealerHand">
+			</div>
+			<h3>Your Hand</h3>
+			<div id="yourHand"></div>
+		</div>
+		<div id="wood">
+			<div id="gameStatus"></div>
+			<div id="hitCard" class="actionButton">HIT</div>
+			<div id="stay" class="actionButton">STAY</div>
+		</div>
+		
+		<div id="availableCards"></div><br>
+		
+		<div id="dealerTotal"></div>
+		<div id="handTotal"></div>
+		<i>* Aces only count at 11. Will add dual value Aces eventually</i><br><br>
+		<div id="chanceBar">
+			<div id="blackjackBar" class="bar">3%</div>
+			<div id="stableBar" class="bar">20%</div>
+			<div id="bustBar" class="bar">70%</div>
+		</div><br><br>
+		<div><span style="color: #f1c40f;">Next card is Blackjack</span> | <span style="color: #95a5a6;">Neither Blackjack / Bust</span> | <span style="color: #c0392b;">Next card busts</span></div><br>
+		<br>
+		<div id="restartGame" class="actionButton">RESTART</div>
+		<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(100828055); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100828055ns.gif" /></p></noscript>
+	</body>
+</html>

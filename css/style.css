@@ -1,0 +1,125 @@
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 200;
+	height: 100%;
+	text-align: center;
+	font-family: "Helvetica";
+}
+
+.actionButton {
+	background-color: #94704D;
+	color: white;
+	border-radius: 4px;
+	padding: 13px;
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	letter-spacing: 3pt;	
+}
+		.actionButton:hover {
+			cursor: pointer;
+			background-color: #BFA994;
+		}
+
+.card {
+	display: inline-block;
+	background-color: white;
+	padding: 10px;
+	height: 150px;
+	width: 90px;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	text-align: left;
+	font-size: 15pt;
+	font-family: serif;
+}
+
+	.card .mid {
+		text-align: center;
+		font-size: 30pt;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+
+	.card .bot {
+		-webkit-transform:rotate(-180deg);
+		-moz-transform:rotate(-180deg); 
+		-o-transform:rotate(-180deg); 
+		transform:rotate(-180deg);
+		ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+		filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+		float: right;
+	}
+
+	.red {
+		color: red;
+	}
+
+#chanceBar {
+	width: 100%;
+	max-width: 500px;
+	height: 50px;
+	display: inline-block;
+	color: white;
+}
+	.bar {
+		height: 50px;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		line-height: 50px;
+	}
+
+	#blackjackBar {
+		background-color: #f1c40f;
+	}
+
+	#stableBar {
+		background-color: #95a5a6;
+	}
+
+	#bustBar {
+		background-color: #c0392b;
+	}
+
+#gameStatus {
+	margin-bottom: 13px;
+	color: white;
+}
+
+.flip {
+	-webkit-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg); 
+	-o-transform:rotate(-180deg); 
+	transform:rotate(-180deg);
+	ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.hidden {
+	display: none;
+}
+
+#restartGame {
+	margin-bottom: 20px;
+}
+
+#table {
+	background: url(../img/tablebg2.png);
+	padding-top: 20px;
+	width: 100%;
+}
+
+#yourHand {
+	margin-top: 20px;
+}
+
+#wood {
+	background-color: #663300;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
